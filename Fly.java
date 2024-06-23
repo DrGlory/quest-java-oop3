@@ -1,25 +1,25 @@
 public interface Fly {
     // 1- Méthode takeOff : voler
-    public void takeOff();
+    void takeOff();
 
     // 2 - Méthode ascend : monter / altitude
-    public int ascend(int a);
+    int ascend(int altitude);
 
     // 3 - Méthode ascend 2 : monter / altitude
-    public double ascend(double a);
+    double ascend(double altitude);
 
     // 4 - Méthode glide : planer
-    public void glide();
+    void glide();
 
     // 5 - Méthode descend : descente
-    public int descend(int c);
+    int descend(int altitude);
 
     // 6 - Méthode land : atterissage
-    public void land();
+    void land();
 
     // 7 - Méthode descend 2 : descente 2
-    public double descend(double c);
+    double descend(double altitude);
 
     // 8 - Méthode land : atterissage 2
-    public void land(String param);
+    void land(String param);
 }
